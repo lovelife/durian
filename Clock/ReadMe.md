@@ -1,4 +1,4 @@
-Calendar , a Windows GUI applications with [ACLLib][0].It compiles with [Dev C++][1].
+﻿时钟, a Windows GUI applications with [ACLLib][0].It compiles with [Dev C++][1].
 
 ACLLib needs linker:
 

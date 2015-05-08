@@ -1,6 +1,6 @@
 [Project]
-FileName=Calendar.dev
-Name=Calendar
+FileName=Clock.dev
+Name=Clock
 Type=1
 Ver=2
 ObjFiles=
@@ -11,7 +11,7 @@ ResourceIncludes=
 MakeIncludes=
 Compiler=
 CppCompiler=
-Linker=_@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libwinmm.a"_@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libmsimg32.a"_@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libkernel32.a"_@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libuser32.a"_@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libgdi32.a"_@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libole32.a"_@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/liboleaut32.a"_@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libuuid.a"_@@_
+Linker="C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libwinmm.a"_@@__@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libmsimg32.a"_@@__@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libkernel32.a"_@@__@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libuser32.a"_@@__@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libgdi32.a"_@@__@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libole32.a"_@@__@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/liboleaut32.a"_@@__@@_"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libuuid.a"_@@_
 IsCpp=0
 Icon=
 ExeOutput=
@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=Calendar.exe
+OverrideOutputName=Clock.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -51,9 +51,9 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=Calendar.c
+FileName=acllib.c
 CompileCpp=0
-Folder=
+Folder=Clock
 Compile=1
 Link=1
 Priority=1000
@@ -61,9 +61,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=acllib.c
+FileName=acllib.h
 CompileCpp=0
-Folder=Calendar
+Folder=Clock
 Compile=1
 Link=1
 Priority=1000
@@ -71,9 +71,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=acllib.h
+FileName=Clock.c
 CompileCpp=0
-Folder=Calendar
+Folder=Clock
 Compile=1
 Link=1
 Priority=1000
